@@ -1,0 +1,39 @@
+body,html{
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#80800a ;
+}
+.heading{
+  display: flex;
+}
+.heading h1{
+  border: 5px rgba(169, 169, 169, 0.326) solid;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 5px;
+  color: darkgrey;
+}
+
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+ 
+}
+
+img{ 
+  width: 30%;
+  margin: 1.66%;
+}
+
+@media screen and (max-width:600px)  {
+  img{
+    width:90%;
+  }
+} 
+
